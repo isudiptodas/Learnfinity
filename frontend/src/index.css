@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Junge&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ranga:wght@400;700&family=Revalia&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, .sidebar, .content{
+    scrollbar-width: none; 
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* .active{
+    color: #13a5af;
+
+    background-color: #06b6d4;
+    padding: 2px 15px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+  } */
+
+.resume-container {
+  padding: 10px;
+}
